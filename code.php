@@ -12,7 +12,7 @@ if(isset($_POST['delete_student']))
 
  if($query_run)
 {
-    $_SESSION['message']= "STUDENT DELETED SUCCESSFULLY";
+    $_SESSION['message']= "STUDENT DELETED SUCCESSFULLY...";
     header("Location: index.php");
     exit(0);
 }
